@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #F0EFEA;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main-body{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: auto;
+  height: auto;
+  margin-left: -10px;
+  /* -1/2 width */
+  margin-top: -10px;
+  /* -1/2 height */
+  background-color: #FFFFFF;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header{
+  color: #616473;
+  position: relative;
+  left: 15px;
+}
+
+.input{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  
+  position: relative;
+  left:17px;
+  width: 140px;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.submit-btn{
+  position: relative;
+  left:17px;
+  
+  background-color: #FFFFFF;;
+  border-radius: 5px;
+  border: none;
+  transition-duration: 1s;
+}
+
+.submit-btn:hover{
+  color:#FFFFFF;
+  background-color: #00CE6A;
+}
+
+.submit-btn:focus{
+  outline: none;
+}
+
+.tasks{
+  position: relative;
+  right: 25px;
+}
+
+.task{
+  list-style: none;
+}
+
+.checked{
+  list-style: none;
+  color:#616473;
+  text-decoration: line-through;
+}
+
+.remove-btn{
+  background-color: white;
+  border: none;
+  align-items: right;
+}
+
+.remove-btn:focus{
+  outline: none;
+  box-shadow:none;
+}
+
+.trash{
+  height: 16px;
+  width: auto;
+}
+
+.trash:focus{
+  outline: none;
+  box-shadow: none;
+}
